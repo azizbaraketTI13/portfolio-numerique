@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Portfolio numérique étudiant : Langage C">
+
+    <title>Langage C | Portfolio numérique</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="wrap top">
+
+            <a class="logo" href="../index.html">ACCEUIL<span>.</span></a>
+
+            <div class="toolbar">
+                <button id="themeToggle" type="button" aria-label="Changer le thème">◐</button>
+                <button id="menuToggle" class="menu-button" type="button">Menu ☰</button>
+            </div>
+
+            <nav id="mainNav" aria-label="Navigation principale">
+                <a href="../digital-skills/cybersecurite.html">Cybersécurité</a>
+                <a href="../digital-skills/prompt-engineering.html">Prompt engineering</a>
+                <a href="../digital-skills/creation-contenu.html">Création de contenu</a>
+                <a href="../developpement/python.html">Python</a>
+                <a class="active" href="../developpement/langage-c.html">Langage C</a>
+                <a href="../developpement/algorithmique.html">Algorithmique</a>
+                <a href="../systemes/systemes-exploitation.html">Systèmes d’exploitation</a>
+                <a href="../systemes/architecture-electronique.html">Architecture &amp; électronique</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="wrap">
+
+        <section class="hero">
+            <span class="eyebrow">Portfolio numérique · 2026</span>
+
+            <h1>Langage C</h1>
+
+            <p class="lead">
+                Trois exemples de base : variables, conditions et boucles.
+            </p>
+
+            <span class="pill">Projet Digital Skills</span>
+        </section>
+
+        <div class="content">
+
+            <h2>Programme 1 — Addition</h2>
+
+            <pre><code>#include &lt;stdio.h&gt;
+
+int main(void) {
+    int a = 5, b = 3;
+    printf("Somme : %d\n", a + b);
+    return 0;
+}</code></pre><p>Ce programme calcule et affiche la somme de deux entiers (a + b)</p>
+
+            <h2>Programme 2 — Pair ou impair</h2>
+
+            <pre><code>#include &lt;stdio.h&gt;
+
+int main(void) {
+    int n = 8;
+
+    if (n % 2 == 0)
+        printf("Pair\n");
+    else
+        printf("Impair\n");
+
+    return 0;
+}</code></pre><p>Ce programme vérifie si le nombre n est pair ou impair</p>
+
+            <h2>Programme 3 — Boucle</h2>
+
+            <pre><code>#include &lt;stdio.h&gt;
+
+int main(void) {
+    for (int i = 1; i &lt;= 5; i++)
+        printf("%d\n", i);
+
+    return 0;
+}</code></pre><p>Ce programme affiche les nombres de 1 à 5 </p>
+
+            <h2>Python / C</h2>
+
+            <div class="table-wrap">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Critère</th>
+                            <th>Python</th>
+                            <th>C</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Syntaxe</td>
+                            <td>Concise, indentation</td>
+                            <td>Accolades et points-virgules</td>
+                        </tr>
+
+                        <tr>
+                            <td>Typage</td>
+                            <td>Dynamique</td>
+                            <td>Statique</td>
+                        </tr>
+
+                        <tr>
+                            <td>Mémoire</td>
+                            <td>Gestion automatisée</td>
+                            <td>Gestion plus explicite</td>
+                        </tr>
+
+                        <tr>
+                            <td>Rapidité</td>
+                            <td>Souvent plus lent</td>
+                            <td>Souvent plus rapide en code compilé</td>
+                        </tr>
+
+                        <tr>
+                            <td>Usages</td>
+                            <td>Scripts, données, IA</td>
+                            <td>Systèmes, embarqué</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+
+            <aside class="transparency">
+
+                <h2>Transparence IA</h2>
+
+                <p>
+                    <strong>Outils utilisés :</strong>
+                    ChatGPT (aide à la structure et aux exemples du site),
+                    VS Code (à compléter selon votre usage).
+                </p>
+
+                <p>
+                    <strong>Mon travail personnel :</strong>
+                    les fonction C et la comparaison
+                </p>
+
+                <p>
+                    <strong>Sources vérifiées :</strong>
+                    cours de class langage C
+                </p>
+
+            </aside>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            © 2026 · Portfolio numérique · Projet pédagogique ·
+            <a href="../index.html">Accueil</a>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

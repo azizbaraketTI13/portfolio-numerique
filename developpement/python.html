@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Portfolio numérique étudiant : Mini-projets Python">
+
+    <title>Mini-projets Python | Portfolio numérique</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="wrap top">
+
+            <a class="logo" href="../index.html">ACCEUIL<span>.</span></a>
+
+            <div class="toolbar">
+                <button id="themeToggle" type="button" aria-label="Changer le thème">◐</button>
+                <button id="menuToggle" class="menu-button" type="button">Menu ☰</button>
+            </div>
+
+            <nav id="mainNav" aria-label="Navigation principale">
+                <a href="../digital-skills/cybersecurite.html">Cybersécurité</a>
+                <a href="../digital-skills/prompt-engineering.html">Prompt engineering</a>
+                <a href="../digital-skills/creation-contenu.html">Création de contenu</a>
+                <a class="active" href="../developpement/python.html">Python</a>
+                <a href="../developpement/langage-c.html">Langage C</a>
+                <a href="../developpement/algorithmique.html">Algorithmique</a>
+                <a href="../systemes/systemes-exploitation.html">Systèmes d’exploitation</a>
+                <a href="../systemes/architecture-electronique.html">Architecture &amp; électronique</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="wrap">
+
+        <section class="hero">
+            <span class="eyebrow">Portfolio numérique · 2026</span>
+
+            <h1>Mini-projets Python</h1>
+
+            <p class="lead">
+                Trois programmes à comprendre, exécuter et documenter.
+            </p>
+
+            <span class="pill">Projet Digital Skills</span>
+        </section>
+
+        <div class="content">
+
+            <h2>Projet 1 — Calculatrice</h2>
+
+            <p>
+                Objectif : calculer une somme à partir de deux nombres saisis.
+            </p>
+
+            <pre><code>a = float(input("Premier nombre : "))
+b = float(input("Deuxième nombre : "))
+print("Somme :", a + b)</code></pre>
+
+            <p>
+                La fonction <code>input</code> lit une valeur,
+                <code>float</code> la convertit et
+                <code>print</code> affiche le résultat.
+            </p>
+
+            <h2>Projet 2 — Devinette</h2>
+
+            <pre><code>secret = 7
+essai = int(input("Devine le nombre : "))
+if essai == secret:
+    print("Bravo !")
+else:
+    print("Réessaie !")</code></pre>
+
+            <p>
+                Le programme utilise une condition pour comparer
+                la réponse à la valeur attendue.
+            </p>
+
+            <h2>Projet 3 — Moyenne de notes</h2>
+
+            <pre><code>notes = [12, 15, 17]
+moyenne = sum(notes) / len(notes)
+print("Moyenne :", moyenne)</code></pre>
+
+            <p>
+                Une liste conserve les notes ;
+                <code>sum</code> calcule leur total et
+                <code>len</code> leur nombre.
+            </p>
+
+
+            <aside class="transparency">
+
+                <h2>Transparence IA</h2>
+
+                <p>
+                    <strong>Outils utilisés :</strong>
+                    ChatGPT (aide à la structure et aux exemples du site),
+                    VS Code (à compléter selon votre usage).
+                </p>
+
+                <p>
+                    <strong>Mon travail personnel :</strong>
+                    les fonction python
+                </p>
+
+                <p>
+                    <strong>Sources vérifiées :</strong>
+                    cours de class python
+                </p>
+
+            </aside>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            © 2026 · Portfolio numérique · Projet pédagogique ·
+            <a href="../index.html">Accueil</a>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

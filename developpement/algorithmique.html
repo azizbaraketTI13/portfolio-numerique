@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Portfolio numérique étudiant : Algorithmique">
+
+    <title>Algorithmique | Portfolio numérique</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="wrap top">
+
+            <a class="logo" href="../index.html">ACCEUIL<span>.</span></a>
+
+            <div class="toolbar">
+                <button id="themeToggle" type="button" aria-label="Changer le thème">◐</button>
+                <button id="menuToggle" class="menu-button" type="button">Menu ☰</button>
+            </div>
+
+            <nav id="mainNav" aria-label="Navigation principale">
+                <a href="../digital-skills/cybersecurite.html">Cybersécurité</a>
+                <a href="../digital-skills/prompt-engineering.html">Prompt engineering</a>
+                <a href="../digital-skills/creation-contenu.html">Création de contenu</a>
+                <a href="../developpement/python.html">Python</a>
+                <a href="../developpement/langage-c.html">Langage C</a>
+                <a class="active" href="../developpement/algorithmique.html">Algorithmique</a>
+                <a href="../systemes/systemes-exploitation.html">Systèmes d’exploitation</a>
+                <a href="../systemes/architecture-electronique.html">Architecture &amp; électronique</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="wrap">
+
+        <section class="hero">
+            <span class="eyebrow">Portfolio numérique · 2026</span>
+
+            <h1>Algorithmique</h1>
+
+            <p class="lead">
+                Trois méthodes avec pseudo-code et traduction Python.
+            </p>
+
+            <span class="pill">Projet Digital Skills</span>
+        </section>
+
+        <div class="content">
+
+            <h2>1. Pair ou impair</h2>
+
+            <pre><code>Algorithme Pair_Impair
+Variables
+    n : entier
+Début
+    Ecrire("Donner un nombre : ")
+    Lire(n)
+
+    Si n MOD 2 = 0 Alors
+        Ecrire("Pair")
+    Sinon
+        Ecrire("Impair")
+    FinSi
+Fin</code></pre> <p>Vérifier si un nombre est pair ou impair</p>
+
+            <h2>2. La factorielle</h2>
+
+            <pre><code>Algorithme Factorielle
+Variables
+    n, i, f : entier
+Début
+    Ecrire("Donner un nombre : ")
+    Lire(n)
+
+    f ← 1
+
+    Pour i de 1 à n Faire
+        f ← f * i
+    FinPour
+
+    Ecrire("Factorielle = ", f)
+Fin</code></pre><p>Calcule et affiche la factorielle d'un nombre entier</p>
+
+
+
+            <h2>3. Somme des entiers</h2>
+
+            <pre><code>Algorithme Somme
+Variables
+    n, i, s : entier
+Début
+    Ecrire("Donner un nombre : ")
+    Lire(n)
+
+    s ← 0
+
+    Pour i de 1 à n Faire
+        s ← s + i
+    FinPour
+
+    Ecrire("La somme est : ", s)
+Fin</code></pre><p>Calcule et affiche la somme des nombres de 1 jusqu'à N</p>
+
+            <aside class="transparency">
+
+                <h2>Transparence IA</h2>
+
+                <p>
+                    <strong>Outils utilisés :</strong>
+                    ChatGPT (aide à la structure et aux exemples du site),
+                    VS Code (à compléter selon votre usage).
+                </p>
+
+                <p>
+                    <strong>Mon travail personnel :</strong>
+                    les fonction algorithme
+                </p>
+
+                <p>
+                    <strong>Sources vérifiées :</strong>
+                    cours de class de l'algorithme
+                </p>
+
+            </aside>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            © 2026 · Portfolio numérique · Projet pédagogique ·
+            <a href="../index.html">Accueil</a>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
